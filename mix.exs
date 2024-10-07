@@ -102,7 +102,7 @@ defmodule BoltSips.Mixfile do
     [
       {:db_connection, "~> 2.4.2"},
       {:jason, "~> 1.4", optional: true},
-      {:poison, "~> 5.0", optional: true},
+      {:poison, "~> 6.0", optional: true},
 
       # Testing dependencies
       {:excoveralls, "~> 0.15.0", optional: true, only: [:test, :dev]},
